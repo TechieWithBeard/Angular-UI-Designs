@@ -6,3 +6,10 @@ https://in.pinterest.com/pin/63683782232234028/
 
 
 For Graphs https://codepen.io/amcharts/pen/gbLpMR is being used.
+
+
+
+
+
+Project Screenshots:
+<img width="1792" alt="Screenshot 2021-04-24 at 11 10 33 PM" src="https://user-images.githubusercontent.com/14331629/115967807-48126b00-a552-11eb-8048-8457f0df8dec.png">
