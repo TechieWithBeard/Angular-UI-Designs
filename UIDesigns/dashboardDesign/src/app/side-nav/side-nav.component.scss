@@ -1,0 +1,59 @@
+ul {
+  width: 7.5rem;
+  list-style-type: none;
+  margin: 1rem 0px 1rem 0px;
+  padding: 0;
+  color: white;
+  background-color: black;
+  height: 100%;
+  border-radius: 2rem;
+}
+
+
+li {
+  height: 8rem;
+  text-align: start;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+
+li>img{
+  border-radius: 50%;
+  width: 3rem;
+  margin: auto;
+}
+
+li>img:hover{
+  border-radius: 50%;
+
+}
+
+
+li>fa-icon{
+font-size: xx-large;
+margin: auto;
+}
+
+
+li:hover{
+  color: black;
+  background-color: white;
+  clip-path: url(#myClip);
+}
+
+li:first-child:hover{
+  color: white;
+  background-color: black;
+  clip-path:none;
+  border-radius: 3rem;
+}
+
+
+li:last-child:hover{
+  color: white;
+  background-color: black;
+  clip-path:none;
+  border-radius: 3rem;
+}
