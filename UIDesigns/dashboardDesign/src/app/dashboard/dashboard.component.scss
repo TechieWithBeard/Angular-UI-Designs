@@ -1,0 +1,440 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-gap: 10px;
+  height: 10vh;
+  margin-top: 1.3rem;
+}
+
+
+
+
+.body-grid-container{
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-gap: 10px;
+  height: 25%;
+}
+
+.card-body-grid-container{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 10px;
+  height: 25%;
+}
+
+.body-grid-container > div {
+
+}
+
+
+.search-card{
+  width: 20rem;
+  border-radius: 10px;
+  height: 2.6rem;
+  align-items: center;
+  background-color: rgb(238, 238, 238);
+
+}
+
+.search-sub-container{
+  display: grid;
+  grid-template-columns: 10% 90%;
+  grid-gap: 10px;
+  height: 90%;
+  padding: 0.6rem 0.2rem 0.2rem 0.6rem;
+}
+
+
+.profile-card{
+  width: 15rem;
+  border-radius: 10px;
+  height: 3.6rem;
+  background-color: white;
+
+
+}
+
+.profile-sub-container{
+  display: grid;
+  grid-template-columns: 10%  20% 50% 1.5rem;
+  grid-gap: 0.5rem;
+  height: 100%;
+  padding: 0.6rem 0.2rem 0.2rem 0.6rem;
+ width: 12rem;
+
+}
+.profile-sub-container > .center{
+  margin: auto;
+  margin-left: 1.2rem;
+  text-align: right;
+  font-size: clamp(0.1rem, 1rem, 2rem);
+
+}
+
+.image-card{
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('https://i.pinimg.com/originals/96/34/2c/96342c89ce360991cb99ec2d172ddd95.jpg');
+}
+
+.right-section{
+  display: flex;
+  flex-flow: row-reverse;
+  margin-right: 2rem;
+}
+
+
+.intro-card{
+  height: 25%;
+  width: 84%;
+  margin-top: 2rem;
+  background-color: rgb(236, 236, 236);
+  border-radius: 2rem;
+  padding: 1rem;
+  font-size: clamp(0.1rem, 1rem, 2rem);
+  box-shadow: 22px 23px 40px -10px #d0d0d0;
+}
+
+
+.button-design{
+  background-color: black;
+  border-color: black;
+  border-radius: 0.4rem;
+  height: 3rem;
+  width: 10rem;
+  color: white;
+
+}
+
+
+
+
+.intro-card-mini{
+  background-color: rgb(228, 228, 228);
+  width: 11rem;
+  height: 10rem;
+  padding: 0.4rem 0.4rem 0.2rem 0.4rem;
+  font-size: clamp(0.1rem, 0.7rem, 1rem);
+  border-radius: 2rem;
+
+}
+.intro-card-mini:nth-child(even) {
+  background: rgb(34, 34, 34);
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container > .intro-card-mini{
+  margin-left: 1.5rem;
+}
+
+.avatar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+}
+
+
+.avatar-list > li {
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  border: 2px solid white;
+  display: inline-block;
+  position: relative;
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2);
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+}
+
+.avatar-list > li:nth-child(1) { background-image:url('https://upload.wikimedia.org/wikipedia/commons/4/4e/A_profile.jpg'); background-size: contain; background-repeat: no-repeat; }
+.avatar-list > li:nth-child(2) { background-image: url('https://cdn.pixabay.com/photo/2019/09/12/17/31/arcade-4472205_1280.jpg'); background-size: contain; background-repeat: no-repeat; }
+.avatar-list > li:nth-child(3) { background-image:url('https://i.pinimg.com/originals/19/cf/78/19cf789a8e216dc898043489c16cec00.jpg'); background-size: contain; background-repeat: no-repeat; }
+.avatar-list > li:nth-child(4) { background-image:url('https://i.pinimg.com/originals/56/1f/ba/561fba299fef1b099087413737389a94.jpg'); background-size: contain; background-repeat: no-repeat; }
+.avatar-list > li:nth-child(n+2) { margin-left: -0.4rem; }
+
+.avatar-list:hover > li:nth-child(n+2) {
+   margin-left: -0.2rem;
+}
+
+
+
+
+
+.right-container{
+  height: 100%;
+  width: 80%;
+  margin-top: 2rem;
+  background-color: rgb(236, 236, 236);
+  border-radius: 2rem;
+  padding: 1rem;
+  font-size: clamp(0.1rem, 1rem, 2rem);
+  box-shadow: 22px 23px 40px -10px #d0d0d0;
+}
+
+
+.right-card-list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+}
+
+.right-card-list>li{
+  margin-top: 0.9rem;
+}
+
+.right-card{
+  width: 95%;
+  height: 4rem;
+  margin: auto;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 22px 23px 40px -16px #d0d0d0;
+
+  display: grid;
+  grid-template-columns: 30% 60% 10%;
+  font-size: clamp(0.1rem, 0.7rem, 1rem);
+}
+
+.right-card-p-box{
+  background-color: rgb(255, 230, 146);
+  border-radius: 1rem;
+  margin: 0.5em;
+
+}
+.right-card-p-box:nth-child(odd){
+  background-color: rgb(85, 206, 135);
+}
+.right-card-p-box:first-child{
+  display: inline-block;
+    font-size: 1rem;
+    line-height: 50px;
+    color: white;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.right-card-icon{
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+
+
+.follower-list{
+  list-style: none;
+  margin: 0.5rem;
+  padding: 0%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: flex;
+  flex-flow: nowrap;
+}
+
+
+.follower-list >li{
+  margin-left: 0.5rem;
+ display: inline-block;
+
+}
+
+
+.follower-card{
+background-color: white;
+height: 3.9rem;
+width: 3.9rem;
+border-radius: 0.5rem;
+background-size: cover;
+font-size: clamp(0.1rem, 0.7rem, 1rem);
+filter:grayscale(80%)
+}
+
+.follower-card:hover>.overlay {
+  opacity: 1;
+}
+.overlay {
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+position: relative;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: clamp(0.1rem, 0.7rem, 1rem);
+
+  text-align: center;
+
+}
+
+
+
+
+.right-pro-account-container{
+  margin-top: 2rem;
+  border-radius: 1rem;
+  height: 10rem;
+  width: 100%;
+  background-color: white;
+  position: relative;
+}
+
+.right-pro-account-container>p{
+  margin: 1rem;
+  font-size: clamp(0.1rem, 0.7rem, 2rem);
+  vertical-align: middle;
+  justify-content: center;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+
+.pro-account-button{
+  background-color: black;
+border-color: black;
+border-radius: 0.4rem;
+height: 2rem;
+width: 7rem;
+color: white;
+position: absolute;
+right: 25%;
+bottom: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#chartdiv {
+  width		: 90%;
+ height		: 20rem;
+ background-color: #161616;
+ border-radius: 1rem;
+}
+
+.amcharts-graph-g2 .amcharts-graph-stroke {
+ stroke-dasharray: 3px 3px;
+ stroke-linejoin: round;
+ stroke-linecap: round;
+ -webkit-animation: am-moving-dashes 1s linear infinite;
+ animation: am-moving-dashes 1s linear infinite;
+}
+
+@-webkit-keyframes am-moving-dashes {
+ 100% {
+   stroke-dashoffset: -31px;
+ }
+}
+@keyframes am-moving-dashes {
+ 100% {
+   stroke-dashoffset: -31px;
+ }
+}
+
+
+.lastBullet {
+ -webkit-animation: am-pulsating 1s ease-out infinite;
+ animation: am-pulsating 1s ease-out infinite;
+}
+@-webkit-keyframes am-pulsating {
+ 0% {
+   stroke-opacity: 1;
+   stroke-width: 0px;
+ }
+ 100% {
+   stroke-opacity: 0;
+   stroke-width: 50px;
+ }
+}
+@keyframes am-pulsating {
+ 0% {
+   stroke-opacity: 1;
+   stroke-width: 0px;
+ }
+ 100% {
+   stroke-opacity: 0;
+   stroke-width: 50px;
+ }
+}
+
+.amcharts-graph-column-front {
+ -webkit-transition: all .3s .3s ease-out;
+ transition: all .3s .3s ease-out;
+}
+.amcharts-graph-column-front:hover {
+ fill: #496375;
+ stroke: #496375;
+ -webkit-transition: all .3s ease-out;
+ transition: all .3s ease-out;
+}
+
+.amcharts-graph-g3 {
+ stroke-linejoin: round;
+ stroke-linecap: round;
+ stroke-dasharray: 500%;
+ stroke-dasharray: 0 \0;
+ stroke-dashoffset: 0 \0;
+ -webkit-animation: am-draw 40s;
+ animation: am-draw 40s;
+}
+@-webkit-keyframes am-draw {
+   0% {
+       stroke-dashoffset: 500%;
+   }
+   100% {
+       stroke-dashoffset: 0%;
+   }
+}
+@keyframes am-draw {
+   0% {
+       stroke-dashoffset: 500%;
+   }
+   100% {
+       stroke-dashoffset: 0%;
+   }
+}
