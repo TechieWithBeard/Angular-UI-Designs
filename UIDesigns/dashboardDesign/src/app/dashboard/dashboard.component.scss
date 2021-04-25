@@ -290,6 +290,9 @@ position: relative;
   width: 100%;
   background-color: white;
   position: relative;
+  display: flex;
+  align-content: stretch;
+  flex-wrap: wrap;
 }
 
 .right-pro-account-container>p{
@@ -304,14 +307,14 @@ position: relative;
 
 .pro-account-button{
   background-color: black;
-border-color: black;
-border-radius: 0.4rem;
-height: 2rem;
-width: 7rem;
-color: white;
-position: absolute;
-right: 25%;
-bottom: 15%;
+  border-color: black;
+  border-radius: 0.4rem;
+  height: 2rem;
+  width: 7rem;
+  color: white;
+  position: relative;
+  bottom: 15%;
+  margin: auto;
 }
 
 
