@@ -3,6 +3,10 @@ New concept UI designs inspired by Pinterest
 Just mimicing concept UI from Pintrest using only HTML and CSS
 
 
+Published at
+https://vishnuramero.github.io/Angular-UI-Designs/
+
+
 Project Details:
 - Framework: Angular v11
 - Graph: https://codepen.io/amcharts/pen/gbLpMR
