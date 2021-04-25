@@ -11,6 +11,7 @@ Project Details:
 - Framework: Angular v11
 - Graph: https://codepen.io/amcharts/pen/gbLpMR
 - Icons: https://fontawesome.com/
+- SVG path creator: https://yqnn.github.io/svg-path-editor/
 
 
 
