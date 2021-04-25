@@ -10,6 +10,7 @@ https://vishnuramero.github.io/Angular-UI-Designs/
 Project Details:
 - Framework: Angular v11
 - Graph: https://codepen.io/amcharts/pen/gbLpMR
+- Icons: https://fontawesome.com/
 
 
 
