@@ -1,4 +1,4 @@
-# Angular-UI-Designs
+# Angular UI Designs - Using only HTML and CSS
 New concept UI designs inspired by Pinterest
 Just mimicing concept UI from Pintrest using only HTML and CSS
 
