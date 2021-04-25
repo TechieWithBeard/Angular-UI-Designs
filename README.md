@@ -15,7 +15,8 @@ For Graphs https://codepen.io/amcharts/pen/gbLpMR is being used.
 
 
 Project Screenshots:
-<img width="1792" alt="Screenshot 2021-04-24 at 11 10 33 PM" src="https://user-images.githubusercontent.com/14331629/115967807-48126b00-a552-11eb-8048-8457f0df8dec.png">
+
+<img width="1792" alt="Screenshot 2021-04-25 at 7 11 20 AM" src="https://user-images.githubusercontent.com/14331629/115977397-71a0b600-a595-11eb-90cb-666945fa9820.png">
 
 
-<img width="1792" alt="Screenshot 2021-04-25 at 12 24 58 AM" src="https://user-images.githubusercontent.com/14331629/115969835-ae03f000-a55c-11eb-8e0c-f43ffd3fa77b.png">
+<img width="1792" alt="Screenshot 2021-04-25 at 7 11 34 AM" src="https://user-images.githubusercontent.com/14331629/115977400-7a918780-a595-11eb-95e2-aaec2703d26e.png">
